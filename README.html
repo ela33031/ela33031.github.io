@@ -1,27 +1,35 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<style>
-a:link, a:visited {
-  background-color: #311E64;
-  color: white;
-  padding: 14px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-}
-
-a:hover, a:active {
-  background-color: red;
-}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centered Button with Link</title>
+    <style>
+        body {
+            background-color: #311E64;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        button {
+            background-color: #ffffff;
+            color: #311E64;
+            padding: 10px 20px;
+            font-size: 18px;
+            border: none;
+            cursor: pointer;
+        }
+        /* Remove default anchor styles */
+        a {
+            text-decoration: none;
+        }
+    </style>
 </head>
 <body>
-
-<h2>Link Button</h2>
-
-<p>A link styled as a button:</p>
-<a href="https://github.com/ela33031" target="_blank">Click here</a>
-
+    <a href="https://github.com/ela33031">
+        <button>Click Me</button>
+    </a>
 </body>
 </html>
